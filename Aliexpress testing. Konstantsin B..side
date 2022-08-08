@@ -1,0 +1,303 @@
+{
+  "id": "c9f2e781-2b68-47b3-81dd-e96119aa07ab",
+  "version": "2.0",
+  "name": "Aliexpress testing. Konstantsin B.",
+  "url": "https://best.aliexpress.ru/",
+  "tests": [{
+    "id": "7dfd78b7-e4ab-44d0-8eea-a620b4637b36",
+    "name": "1. id Test #1",
+    "commands": [{
+      "id": "f114ac8b-c291-411f-adaa-4babe59e3100",
+      "comment": "",
+      "command": "open",
+      "target": "https://best.aliexpress.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3da9e76-2a93-497b-901b-23c43126409b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=__aer_root__",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7774ab1b-db50-47b1-a323-c248609e4a0b",
+    "name": "2. id Test #2",
+    "commands": [{
+      "id": "8af58b19-d528-4c1b-a7d1-6fcdb095f488",
+      "comment": "",
+      "command": "open",
+      "target": "https://best.aliexpress.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f63e2ded-a1ff-48c9-8297-57b3f8b3d855",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=__AER_DATA__",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1c7bade1-65fd-4814-9604-9913383f4165",
+    "name": "3. name Test 1",
+    "commands": [{
+      "id": "e35826ed-5924-4a3b-ab16-bea7f9af1677",
+      "comment": "",
+      "command": "open",
+      "target": "https://best.aliexpress.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "559d1cb0-d74b-46d6-89c2-4db3ebf46d2e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=viewport",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f981e3ce-ff01-48c8-8158-c7981c2e7299",
+    "name": "4. name Test 2",
+    "commands": [{
+      "id": "b1fb7a51-b43b-45f6-8e8e-df5252dff3cb",
+      "comment": "",
+      "command": "open",
+      "target": "https://best.aliexpress.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0370ba07-b628-41b1-9647-82b6c217f52b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=description",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "545d4ec1-a00e-4ebf-9309-c95ddc15144f",
+    "name": "5.name Test 3",
+    "commands": [{
+      "id": "4648cab8-40cd-4a94-a97d-b6bf398ba868",
+      "comment": "",
+      "command": "open",
+      "target": "https://best.aliexpress.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3856f3d7-d7bb-4ac8-a564-bf21047849c9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=ahot-aplus",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7a8e915b-cf67-404e-9f23-8d150c5c1dff",
+    "name": "6. Test Case #1",
+    "commands": [{
+      "id": "7bad9910-d18a-43fa-9c42-31bd3f6f6803",
+      "comment": "Авторизация через главную стра",
+      "command": "open",
+      "target": "https://best.aliexpress.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27a77e43-01bd-48fc-8871-da327d8add8e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x849",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d3970ca-e41a-493f-b8ad-85ab35f69b87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IntroductionEntrance_WelcomeBlock__entranceButton__1q3w7",
+      "targets": [
+        ["css=.IntroductionEntrance_WelcomeBlock__entranceButton__1q3w7", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='__aer_root__']/div/div[6]/div/div[2]/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/div/div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cfe5ea66-e1ff-4d06-9dab-3e395bb6f8d3",
+    "name": "7. Test case #2",
+    "commands": [{
+      "id": "42312f73-3acc-4b59-bcf1-a13eb9e8a046",
+      "comment": "",
+      "command": "open",
+      "target": "https://best.aliexpress.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ecef121-8c32-42cc-a469-e09e80b6d0e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x835",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb558bdd-1874-4d2e-a3ce-7c1df410007c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TopHeadV2_TopHeadV2__shipTo__1c1dq",
+      "targets": [
+        ["css=.TopHeadV2_TopHeadV2__shipTo__1c1dq", "css:finder"],
+        ["xpath=//div[@id='__aer_root__']/div/div/div/span/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//span/div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6d7f738-6c76-4f02-b047-4cae678efe8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#downshift-0-toggle-button > .TopHeadV2_LangSwitcherForm__flag__1q6pu",
+      "targets": [
+        ["css=#downshift-0-toggle-button > .TopHeadV2_LangSwitcherForm__flag__1q6pu", "css:finder"],
+        ["xpath=//button[@id='downshift-0-toggle-button']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15b38819-faf9-400c-90a7-df064ca8fa6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#downshift-0-item-21 > .TopHeadV2_LangSwitcherForm__flag__1q6pu",
+      "targets": [
+        ["css=#downshift-0-item-21 > .TopHeadV2_LangSwitcherForm__flag__1q6pu", "css:finder"],
+        ["xpath=//li[@id='downshift-0-item-21']/span", "xpath:idRelative"],
+        ["xpath=//li[22]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6321034-cfd1-4a49-a752-b46da20cf3c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=downshift-3-toggle-button",
+      "targets": [
+        ["id=downshift-3-toggle-button", "id"],
+        ["css=#downshift-3-toggle-button", "css:finder"],
+        ["xpath=//button[@id='downshift-3-toggle-button']", "xpath:attributes"],
+        ["xpath=//div[@id='__aer_root__']/div/div/div/span/div[3]/div/div/div/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Русский')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ddf1519-f9d9-4b49-95af-83462813c283",
+      "comment": "",
+      "command": "click",
+      "target": "id=downshift-3-item-1",
+      "targets": [
+        ["id=downshift-3-item-1", "id"],
+        ["css=#downshift-3-item-1", "css:finder"],
+        ["xpath=//li[@id='downshift-3-item-1']", "xpath:attributes"],
+        ["xpath=//div[@id='downshift-3-menu']/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Русский')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d16b92a2-ad78-4be3-97c1-814b825c896b",
+      "comment": "",
+      "command": "click",
+      "target": "id=downshift-4-toggle-button",
+      "targets": [
+        ["id=downshift-4-toggle-button", "id"],
+        ["css=#downshift-4-toggle-button", "css:finder"],
+        ["xpath=//button[@id='downshift-4-toggle-button']", "xpath:attributes"],
+        ["xpath=//div[@id='__aer_root__']/div/div/div/span/div[3]/div/div/div/div/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'BYR ( Belarusian Ruble )')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "689078ae-76c9-4345-bb43-72d116560f9b",
+      "comment": "",
+      "command": "click",
+      "target": "id=downshift-4-item-0",
+      "targets": [
+        ["id=downshift-4-item-0", "id"],
+        ["css=#downshift-4-item-0", "css:finder"],
+        ["xpath=//li[@id='downshift-4-item-0']", "xpath:attributes"],
+        ["xpath=//div[@id='downshift-4-menu']/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'USD ( US Dollar )')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7442dd5b-6ccb-481a-bceb-4fbd02aeecd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TopHeadV2_LangSwitcherForm__button__1q6pu",
+      "targets": [
+        ["css=.TopHeadV2_LangSwitcherForm__button__1q6pu", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='__aer_root__']/div/div/div/span/div[3]/div/div/div/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Сохранить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8548c31c-661c-4e50-ba17-728ce6373bc7",
+    "name": "8. Test case #3",
+    "commands": [{
+      "id": "36bf8a4c-59cf-4a1f-a24c-17c76d79de11",
+      "comment": "",
+      "command": "open",
+      "target": "https://best.aliexpress.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b0983c4-4712-4237-86c7-874c899efe03",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x835",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b5f13a4-bdaa-4c45-a1a0-91f3ad6f1d86",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=0",
+      "targets": [
+        ["linkText=0", "linkText"],
+        ["css=.Header_ShopCart__linkImage__1mrlq", "css:finder"],
+        ["xpath=//div[@id='__aer_root__']/div/div[2]/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shoppingcart.aliexpress.ru/shopcart/shopcartDetail.htm?spm=a2g2w.home.1000002.2.23ca501d3bKNDB&_ga=2.85666841.1687935596.1659567234-1058471630.1659567234')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72a6363b-5599-4895-95da-1a71de45bebe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Отправляйтесь за покупками",
+      "targets": [
+        ["linkText=Отправляйтесь за покупками", "linkText"],
+        ["css=.ShoppingcartStates_CartState__link__1ww0f:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Отправляйтесь за покупками')]", "xpath:link"],
+        ["xpath=//div[@id='__aer_root__']/div/div[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://aliexpress.ru/?spm=a2g2w.cart.0.0.6e4e4aa6ofBNMu&_ga=2.85666841.1687935596.1659567234-1058471630.1659567234')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Отправляйтесь за покупками')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "762a438d-af95-4da5-8396-6ea547330397",
+    "name": "Test suite #1",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7dfd78b7-e4ab-44d0-8eea-a620b4637b36", "7774ab1b-db50-47b1-a323-c248609e4a0b", "1c7bade1-65fd-4814-9604-9913383f4165", "f981e3ce-ff01-48c8-8158-c7981c2e7299", "545d4ec1-a00e-4ebf-9309-c95ddc15144f", "7a8e915b-cf67-404e-9f23-8d150c5c1dff", "cfe5ea66-e1ff-4d06-9dab-3e395bb6f8d3", "8548c31c-661c-4e50-ba17-728ce6373bc7"]
+  }],
+  "urls": ["https://aliexpress.ru/", "https://ozon.ru/", "https://best.aliexpress.ru/"],
+  "plugins": []
+}
